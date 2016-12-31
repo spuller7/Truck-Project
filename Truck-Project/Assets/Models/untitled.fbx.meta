@@ -1,0 +1,167 @@
+fileFormatVersion: 2
+guid: dc67e91204cf40f43ad2e0f908d1e87f
+timeCreated: 1482570593
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Camaro_Doom_Axel_Front
+    100002: Camaro_Doom_Axel_Rear
+    100004: Camaro_Doom_Body
+    100006: Camaro_Doom_Piston_Front_1
+    100008: Camaro_Doom_Piston_Front_2
+    100010: Camaro_Doom_Piston_Rear_1
+    100012: Camaro_Doom_Piston_Rear_2
+    100014: Camaro_Doom_RearWheels
+    100016: Camaro_Doom_RearWheels.001
+    100018: Camaro_Doom_Suspension_Front_1
+    100020: Camaro_Doom_Suspension_Front_2
+    100022: Camaro_Doom_Suspension_Rear_1
+    100024: Camaro_Doom_Suspension_Rear_2
+    100026: Camaro_Doom_Wheel01
+    100028: Camaro_Doom_Wheel02
+    100030: Camaro_Doom_Window
+    100032: Camera
+    100034: Drive_Shaft_002
+    100036: Drive_Shaft_01
+    100038: Lamp
+    100040: //RootNode
+    400000: Camaro_Doom_Axel_Front
+    400002: Camaro_Doom_Axel_Rear
+    400004: Camaro_Doom_Body
+    400006: Camaro_Doom_Piston_Front_1
+    400008: Camaro_Doom_Piston_Front_2
+    400010: Camaro_Doom_Piston_Rear_1
+    400012: Camaro_Doom_Piston_Rear_2
+    400014: Camaro_Doom_RearWheels
+    400016: Camaro_Doom_RearWheels.001
+    400018: Camaro_Doom_Suspension_Front_1
+    400020: Camaro_Doom_Suspension_Front_2
+    400022: Camaro_Doom_Suspension_Rear_1
+    400024: Camaro_Doom_Suspension_Rear_2
+    400026: Camaro_Doom_Wheel01
+    400028: Camaro_Doom_Wheel02
+    400030: Camaro_Doom_Window
+    400032: Camera
+    400034: Drive_Shaft_002
+    400036: Drive_Shaft_01
+    400038: Lamp
+    400040: //RootNode
+    2300000: Camaro_Doom_Axel_Front
+    2300002: Camaro_Doom_Axel_Rear
+    2300004: Camaro_Doom_Body
+    2300006: Camaro_Doom_Piston_Front_1
+    2300008: Camaro_Doom_Piston_Front_2
+    2300010: Camaro_Doom_Piston_Rear_1
+    2300012: Camaro_Doom_Piston_Rear_2
+    2300014: Camaro_Doom_RearWheels
+    2300016: Camaro_Doom_RearWheels.001
+    2300018: Camaro_Doom_Suspension_Front_1
+    2300020: Camaro_Doom_Suspension_Front_2
+    2300022: Camaro_Doom_Suspension_Rear_1
+    2300024: Camaro_Doom_Suspension_Rear_2
+    2300026: Camaro_Doom_Wheel01
+    2300028: Camaro_Doom_Wheel02
+    2300030: Camaro_Doom_Window
+    2300032: Drive_Shaft_002
+    2300034: Drive_Shaft_01
+    3300000: Camaro_Doom_Axel_Front
+    3300002: Camaro_Doom_Axel_Rear
+    3300004: Camaro_Doom_Body
+    3300006: Camaro_Doom_Piston_Front_1
+    3300008: Camaro_Doom_Piston_Front_2
+    3300010: Camaro_Doom_Piston_Rear_1
+    3300012: Camaro_Doom_Piston_Rear_2
+    3300014: Camaro_Doom_RearWheels
+    3300016: Camaro_Doom_RearWheels.001
+    3300018: Camaro_Doom_Suspension_Front_1
+    3300020: Camaro_Doom_Suspension_Front_2
+    3300022: Camaro_Doom_Suspension_Rear_1
+    3300024: Camaro_Doom_Suspension_Rear_2
+    3300026: Camaro_Doom_Wheel01
+    3300028: Camaro_Doom_Wheel02
+    3300030: Camaro_Doom_Window
+    3300032: Drive_Shaft_002
+    3300034: Drive_Shaft_01
+    4300000: Camaro_Doom_RearWheels.001
+    4300002: Camaro_Doom_Axel_Front
+    4300004: Camaro_Doom_Suspension_Front_1
+    4300006: Camaro_Doom_Suspension_Rear_1
+    4300008: Camaro_Doom_Wheel01
+    4300010: Drive_Shaft_002
+    4300012: Camaro_Doom_Wheel02
+    4300014: Camaro_Doom_Piston_Rear_2
+    4300016: Camaro_Doom_Axel_Rear
+    4300018: Camaro_Doom_Piston_Front_1
+    4300020: Camaro_Doom_Body
+    4300022: Camaro_Doom_Suspension_Front_2
+    4300024: Camaro_Doom_RearWheels
+    4300026: Camaro_Doom_Piston_Front_2
+    4300028: Camaro_Doom_Suspension_Rear_2
+    4300030: Camaro_Doom_Piston_Rear_1
+    4300032: Drive_Shaft_01
+    4300034: Camaro_Doom_Window
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
