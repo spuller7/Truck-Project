@@ -1,0 +1,98 @@
+Initialize engine version: 5.5.0f3 (38b4efef76f0)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 860M (ID=0x1392)
+    Vendor:   NVIDIA
+    VRAM:     2018 MB
+    Driver:   10.18.15.4256
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Jake\Documents\GitHub\Truck-Project\TestBuild_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Jake\Documents\GitHub\Truck-Project\TestBuild_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Jake\Documents\GitHub\Truck-Project\TestBuild_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Jake\Documents\GitHub\Truck-Project\TestBuild_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Jake\Documents\GitHub\Truck-Project\TestBuild_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Jake\Documents\GitHub\Truck-Project\TestBuild_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Jake\Documents\GitHub\Truck-Project\TestBuild_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Jake\Documents\GitHub\Truck-Project\TestBuild_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Jake\Documents\GitHub\Truck-Project\TestBuild_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Jake\Documents\GitHub\Truck-Project\TestBuild_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Jake\Documents\GitHub\Truck-Project\TestBuild_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\Jake\Documents\GitHub\Truck-Project\TestBuild_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+Platform assembly: C:\Users\Jake\Documents\GitHub\Truck-Project\TestBuild_Data\Managed\Photon3Unity3D.dll (this message is harmless)
+Loading C:\Users\Jake\Documents\GitHub\Truck-Project\TestBuild_Data\Managed\Photon3Unity3D.dll into Unity Child Domain
+- Completed reload, in  0.197 seconds
+Platform assembly: C:\Users\Jake\Documents\GitHub\Truck-Project\TestBuild_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Jake\Documents\GitHub\Truck-Project\TestBuild_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 3840x1080 at 0,0
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.945391 ms
+Initialize engine version: 5.5.0f3 (38b4efef76f0)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 860M (ID=0x1392)
+    Vendor:   NVIDIA
+    VRAM:     2018 MB
+    Driver:   10.18.15.4256
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Jake\Documents\GitHub\Truck-Project\TestBuild_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Jake\Documents\GitHub\Truck-Project\TestBuild_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Jake\Documents\GitHub\Truck-Project\TestBuild_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Jake\Documents\GitHub\Truck-Project\TestBuild_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Jake\Documents\GitHub\Truck-Project\TestBuild_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Jake\Documents\GitHub\Truck-Project\TestBuild_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Jake\Documents\GitHub\Truck-Project\TestBuild_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Jake\Documents\GitHub\Truck-Project\TestBuild_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Jake\Documents\GitHub\Truck-Project\TestBuild_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Jake\Documents\GitHub\Truck-Project\TestBuild_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Jake\Documents\GitHub\Truck-Project\TestBuild_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\Jake\Documents\GitHub\Truck-Project\TestBuild_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+Platform assembly: C:\Users\Jake\Documents\GitHub\Truck-Project\TestBuild_Data\Managed\Photon3Unity3D.dll (this message is harmless)
+Loading C:\Users\Jake\Documents\GitHub\Truck-Project\TestBuild_Data\Managed\Photon3Unity3D.dll into Unity Child Domain
+- Completed reload, in  0.030 seconds
+Platform assembly: C:\Users\Jake\Documents\GitHub\Truck-Project\TestBuild_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Jake\Documents\GitHub\Truck-Project\TestBuild_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 3840x1080 at 0,0
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 108c -> priority: 1 
+  Thread -> id: 100c -> priority: 1 
+<RI> Initialized touch support.
+UnloadTime: 2.745101 ms
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 4eb8 -> priority: 1 
+  Thread -> id: 1e74 -> priority: 1 
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.905471 ms
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 664.
+Total: 1.099922 ms (FindLiveObjects: 0.033356 ms CreateObjectMapping: 0.023520 ms MarkObjects: 0.426797 ms  DeleteObjects: 0.614964 ms)
+
+Operation failed: OperationResponse 226: ReturnCode: 32758 (Game does not exists). Parameters: {} Server: MasterServer
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.484102 ms
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 454.
+Total: 1.042616 ms (FindLiveObjects: 0.045758 ms CreateObjectMapping: 0.017106 ms MarkObjects: 0.303633 ms  DeleteObjects: 0.675690 ms)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.080381 ms
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 664.
+Total: 1.188874 ms (FindLiveObjects: 0.050890 ms CreateObjectMapping: 0.024376 ms MarkObjects: 0.458871 ms  DeleteObjects: 0.654308 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.483675 ms
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 454.
+Total: 1.080677 ms (FindLiveObjects: 0.048752 ms CreateObjectMapping: 0.015823 ms MarkObjects: 0.291659 ms  DeleteObjects: 0.724015 ms)
+
