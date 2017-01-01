@@ -542,6 +542,7 @@ GameObject:
   - component: {fileID: 114000013934343452}
   - component: {fileID: 114000011911729882}
   - component: {fileID: 114800709306144010}
+  - component: {fileID: 114676083528325716}
   m_Layer: 0
   m_Name: CamaroSS69_DOOM
   m_TagString: Untagged
@@ -2177,6 +2178,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96468c245ae8e0d4f8f1c7a7b8b0542e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114676083528325716
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013931313252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6ab1015581c7446b2d52c51feb346e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  componentsToDisable:
+  - {fileID: 114000013292784972}
+  - {fileID: 114000013934343452}
 --- !u!114 &114800709306144010
 MonoBehaviour:
   m_ObjectHideFlags: 1

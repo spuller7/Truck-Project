@@ -21,31 +21,78 @@ Platform assembly: C:\Users\Jake\Documents\GitHub\Truck-Project\TestBuild_Data\M
 Loading C:\Users\Jake\Documents\GitHub\Truck-Project\TestBuild_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
 Platform assembly: C:\Users\Jake\Documents\GitHub\Truck-Project\TestBuild_Data\Managed\Photon3Unity3D.dll (this message is harmless)
 Loading C:\Users\Jake\Documents\GitHub\Truck-Project\TestBuild_Data\Managed\Photon3Unity3D.dll into Unity Child Domain
-- Completed reload, in  0.032 seconds
+- Completed reload, in  0.269 seconds
 Platform assembly: C:\Users\Jake\Documents\GitHub\Truck-Project\TestBuild_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\Jake\Documents\GitHub\Truck-Project\TestBuild_Data\Managed\System.dll (this message is harmless)
-desktop: 1920x1080 60Hz; virtual: 3840x1080 at 0,0
+desktop: 1920x1080 60Hz; virtual: 5760x1080 at -1920,0
 <RI> Initializing input.
 XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 2.098490 ms
+UnloadTime: 2.422651 ms
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 6d8 -> priority: 1 
-  Thread -> id: 3c70 -> priority: 1 
+  Thread -> id: 1cbc -> priority: 1 
+  Thread -> id: 4b70 -> priority: 1 
+Initialize engine version: 5.5.0f3 (38b4efef76f0)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 860M (ID=0x1392)
+    Vendor:   NVIDIA
+    VRAM:     2018 MB
+    Driver:   10.18.15.4256
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Jake\Documents\GitHub\Truck-Project\TestBuild_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Jake\Documents\GitHub\Truck-Project\TestBuild_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Jake\Documents\GitHub\Truck-Project\TestBuild_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Jake\Documents\GitHub\Truck-Project\TestBuild_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Jake\Documents\GitHub\Truck-Project\TestBuild_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Jake\Documents\GitHub\Truck-Project\TestBuild_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Jake\Documents\GitHub\Truck-Project\TestBuild_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Jake\Documents\GitHub\Truck-Project\TestBuild_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Jake\Documents\GitHub\Truck-Project\TestBuild_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Jake\Documents\GitHub\Truck-Project\TestBuild_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Jake\Documents\GitHub\Truck-Project\TestBuild_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\Jake\Documents\GitHub\Truck-Project\TestBuild_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+Platform assembly: C:\Users\Jake\Documents\GitHub\Truck-Project\TestBuild_Data\Managed\Photon3Unity3D.dll (this message is harmless)
+Loading C:\Users\Jake\Documents\GitHub\Truck-Project\TestBuild_Data\Managed\Photon3Unity3D.dll into Unity Child Domain
+- Completed reload, in  0.040 seconds
+Platform assembly: C:\Users\Jake\Documents\GitHub\Truck-Project\TestBuild_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Jake\Documents\GitHub\Truck-Project\TestBuild_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 5760x1080 at -1920,0
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 3.913448 ms
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 3cd8 -> priority: 1 
+  Thread -> id: 3520 -> priority: 1 
 Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 3.673962 ms
+UnloadTime: 6.208659 ms
 
 Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 665.
-Total: 1.159793 ms (FindLiveObjects: 0.047469 ms CreateObjectMapping: 0.025659 ms MarkObjects: 0.458015 ms  DeleteObjects: 0.627793 ms)
+Total: 1.201275 ms (FindLiveObjects: 0.050462 ms CreateObjectMapping: 0.024803 ms MarkObjects: 0.484957 ms  DeleteObjects: 0.640623 ms)
 
 Operation failed: OperationResponse 226: ReturnCode: 32758 (Game does not exists). Parameters: {} Server: MasterServer
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.534138 ms
+UnloadTime: 0.520880 ms
 
 Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 455.
-Total: 0.960935 ms (FindLiveObjects: 0.035067 ms CreateObjectMapping: 0.016678 ms MarkObjects: 0.269421 ms  DeleteObjects: 0.638912 ms)
+Total: 1.042189 ms (FindLiveObjects: 0.040199 ms CreateObjectMapping: 0.016678 ms MarkObjects: 0.304488 ms  DeleteObjects: 0.679967 ms)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.250159 ms
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 665.
+Total: 1.129857 ms (FindLiveObjects: 0.047041 ms CreateObjectMapping: 0.023948 ms MarkObjects: 0.441337 ms  DeleteObjects: 0.616674 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.703060 ms
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 455.
+Total: 1.111896 ms (FindLiveObjects: 0.042765 ms CreateObjectMapping: 0.016250 ms MarkObjects: 0.294224 ms  DeleteObjects: 0.758227 ms)
 
