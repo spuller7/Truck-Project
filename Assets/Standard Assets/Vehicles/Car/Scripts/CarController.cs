@@ -1,8 +1,7 @@
 using System;
 using UnityEngine;
+using UnityStandardAssets.Vehicles.Car;
 
-namespace UnityStandardAssets.Vehicles.Car
-{
     internal enum CarDriveType
     {
         FrontWheelDrive,
@@ -16,7 +15,7 @@ namespace UnityStandardAssets.Vehicles.Car
         KPH
     }
 
-    public class CarController : MonoBehaviour
+    public class CarController : Photon.MonoBehaviour
     {
         [SerializeField] private CarDriveType m_CarDriveType = CarDriveType.FourWheelDrive;
         [SerializeField] private WheelCollider[] m_WheelColliders = new WheelCollider[4];
@@ -47,13 +46,18 @@ namespace UnityStandardAssets.Vehicles.Car
         private Rigidbody m_Rigidbody;
         private const float k_ReversingThreshold = 0.01f;
 
+    private float speed;
+    private float steerAngle;
+    private float accel;
+
         public bool Skidding { get; private set; }
         public float BrakeInput { get; private set; }
-        public float CurrentSteerAngle{ get { return m_SteerAngle; }}
-        public float CurrentSpeed{ get { return m_Rigidbody.velocity.magnitude*2.23693629f; }}
+        public float CurrentSteerAngle{ get { return m_SteerAngle; } set { steerAngle = value; } }
+        public float CurrentSpeed{ get { return m_Rigidbody.velocity.magnitude*2.23693629f; } set { speed = value; } }
         public float MaxSpeed{get { return m_Topspeed; }}
         public float Revs { get; private set; }
         public float AccelInput { get; private set; }
+
 
         // Use this for initialization
         private void Start()
@@ -363,5 +367,27 @@ namespace UnityStandardAssets.Vehicles.Car
             }
             return false;
         }
+
+
+
+    void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
+    {
+        if (stream.isWriting)
+        {
+            stream.SendNext(transform.position);
+            stream.SendNext(transform.rotation);
+            stream.SendNext(CurrentSpeed);
+            stream.SendNext(CurrentSteerAngle);
+            stream.SendNext(AccelInput);
+        }
+        else
+        {
+            transform.position = (Vector3)stream.ReceiveNext();
+            transform.rotation = (Quaternion)stream.ReceiveNext();
+            CurrentSpeed = (float)stream.ReceiveNext();
+            CurrentSteerAngle = (float)stream.ReceiveNext();
+            AccelInput = (float)stream.ReceiveNext();
+        }
     }
-}
+
+ }

@@ -8,7 +8,16 @@ public class OnlineButton : MonoBehaviour {
 	// Use this for initialization
 	public void OnClick()
     {
-        PhotonNetwork.CreateRoom(null);
+        PhotonNetwork.JoinRoom("test");
+    }
+
+    void OnPhotonJoinRoomFailed()
+    {
+        PhotonNetwork.CreateRoom("test");
+    }
+
+    void OnJoinedRoom()
+    {
         SceneManager.LoadScene("Map_1");
     }
 }

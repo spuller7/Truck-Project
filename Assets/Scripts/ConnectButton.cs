@@ -9,11 +9,18 @@ public class ConnectButton : Photon.MonoBehaviour {
     GameObject button;
     GameObject userName;
 
+    [SerializeField]
+    private GameObject usernameInput;
+
 	// Use this for initialization
 	void Start () {
         button = GameObject.Find("ConnectButton");
         button.GetComponent<Button>().interactable = false;
-        userName = GameObject.Find("InputField");
+        userName = usernameInput;
+        if (userName == null)
+        {
+            userName = GameObject.Find("InputField");
+        }
         PhotonNetwork.ConnectUsingSettings ("alpha 0.1");
     }
 
